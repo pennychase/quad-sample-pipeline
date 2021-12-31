@@ -1,6 +1,6 @@
 steps:
   - name: test
-    image: node:15.4.0-alpine
+    image: node:17.3.0-alpine
     commands:
       - npm ci
       - npm test
